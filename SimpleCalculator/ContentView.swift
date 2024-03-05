@@ -11,6 +11,7 @@ struct ContentView: View {
     @State private var value1: Int?
     @State private var value2: Int?
     @State private var result = 0
+    //New feature
     
     var body: some View {
         Spacer()
