@@ -73,7 +73,7 @@ struct ContentView: View {
                     // multiply
                     Button(action: {
                         
-                        self.result = (self.value1 ?? 0) - (self.value2 ?? 0)
+                        self.result = (self.value1 ?? 0) * (self.value2 ?? 0)
                     }) {
                         Image(systemName: "multiply")
                     }
